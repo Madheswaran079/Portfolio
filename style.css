@@ -41,10 +41,10 @@ a:hover{
     justify-content: center;
     align-items: center;
 }
-.bio{
+#bio{
     background-color: #c7f04d;
 } 
-.bio img{
+#bio img{
     width: 25vw;
     height: 50vh;
     padding-top: 10px;
@@ -53,7 +53,7 @@ a:hover{
     padding-right: 10px;
     border-radius: 200px;
 }
-.bio-block{
+#bio-block{
     display: flex;
     justify-content: center;
     align-items: center;
@@ -89,7 +89,7 @@ a:hover{
     background-color: #b792f7;
 }
 #title{
-    font-size: 3em;
+    font-size: 2.3em;
 }
 #part{
     display: flex;
@@ -116,7 +116,33 @@ progress::-moz-progress-bar{
     background: pink;
 }
 #contact{
-    text-align: center;
+    position: absolute;
+    width: 100%;
     background-color: white;
     color: black;
+    font-size: 2em;
+    text-align: center;
+}
+#contact #part2 {
+    display: flex;
+    justify-content: space-evenly;
+}
+#part2 li{
+    list-style: none;
+}
+#mob img{
+    width: 8vw;
+    height: 10vh;
+}
+#mail img{
+    width: 8vw;
+    height: 10vh;
+}
+#insta img{
+    width: 8vw;
+    height: 10vh;
+}
+#git img{
+    width: 8vw;
+    height: 10vh;
 }
